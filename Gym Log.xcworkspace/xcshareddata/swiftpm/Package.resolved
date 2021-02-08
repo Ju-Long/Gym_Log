@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AlertX",
+        "repositoryURL": "https://github.com/neel-makhecha/AlertX.git",
+        "state": {
+          "branch": null,
+          "revision": "d506408d6c3ba3b5968e8803e2b9b51d898c34b1",
+          "version": "1.1.2"
+        }
+      },
+      {
+        "package": "SwiftUI_CSS",
+        "repositoryURL": "https://github.com/hite/SwiftUI-CSS.git",
+        "state": {
+          "branch": null,
+          "revision": "111294aef6e75fb0d07b9fdd9739155c4a7a8eef",
+          "version": "1.2.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
