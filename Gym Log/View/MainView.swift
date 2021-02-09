@@ -8,13 +8,37 @@
 import SwiftUI
 
 struct MainView: View {
+    @Binding var showMenu: Bool
+    static let mainDateFormat: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd.MM.y"
+        return formatter
+    }()
+    static let subDateFormat: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE"
+        return formatter
+    }()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView()
+        NavigationView {
+            VStack (alignment: .center, spacing: 5){
+                Text("\(Date(), formatter: Self.mainDateFormat)")
+                    .font(.largeTitle)
+                Text("\(Date(), formatter: Self.subDateFormat)")
+                    .font(.subheadline)
+                    .foregroundColor(Color(.gray))
+                ScrollView {
+                    CardViewRow()
+                }.padding(.top, 50)
+            }
+            .navigationBarItems(leading: (Button(action: {
+                showMenu.toggle()
+            }, label: {
+                Image(self.showMenu ? "clear" : "menu-icon")
+                    .resizable()
+                    .frame(width: 30, height: 30)
+            })))
+        }
     }
 }

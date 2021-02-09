@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct Exercise {
+    var name: [String]
+    var imageName: [String]
+}

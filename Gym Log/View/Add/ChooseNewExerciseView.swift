@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ChooseNewExerciseView: View {
+    @ObservedObject var exerciseViewModel = ExerciseViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                List(exerciseViewModel.exercise) {exercies in
+                    HStack {
+                        
+                    }
+                }
+            }
+            .navigationBarTitle("Choose an Exercise")
+            .navigationBarItems(trailing: (Button(action: {}, label: {
+                Image(systemName: "plus")
+                    .resizable()
+                    .frame(width: 20, height: 20, alignment: .center)
+            })))
+        }
+        
     }
 }
 

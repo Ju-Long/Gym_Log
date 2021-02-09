@@ -17,6 +17,18 @@
 		2730DB2525D17FFB00364806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2730DB2425D17FFB00364806 /* Preview Assets.xcassets */; };
 		2730DB2825D17FFB00364806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2730DB2625D17FFB00364806 /* LaunchScreen.storyboard */; };
 		279C0C0125D18065000E4788 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279C0C0025D18065000E4788 /* GoogleService-Info.plist */; };
+		27AD37DB25D1C44B00EF2C47 /* AddExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD37DA25D1C44B00EF2C47 /* AddExerciseView.swift */; };
+		27AD37E125D1CD5800EF2C47 /* unconfirmedExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD37E025D1CD5800EF2C47 /* unconfirmedExercise.swift */; };
+		27AD37E425D1CF1400EF2C47 /* ChooseNewExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD37E325D1CF1400EF2C47 /* ChooseNewExerciseView.swift */; };
+		27AD37ED25D1E0B300EF2C47 /* DeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD37EC25D1E0B300EF2C47 /* DeleteView.swift */; };
+		27AD37F125D1E16400EF2C47 /* DeleteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD37F025D1E16400EF2C47 /* DeleteRow.swift */; };
+		27AD37F525D1E4A300EF2C47 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD37F425D1E4A300EF2C47 /* UserViewModel.swift */; };
+		27AD37F925D1E4FE00EF2C47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD37F825D1E4FE00EF2C47 /* User.swift */; };
+		27AD37FC25D1E78200EF2C47 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD37FB25D1E78200EF2C47 /* Exercise.swift */; };
+		27AD37FF25D1E7C100EF2C47 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD37FE25D1E7C100EF2C47 /* ExerciseViewModel.swift */; };
+		27E8337325D1B153008C6253 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8337225D1B153008C6253 /* MainView.swift */; };
+		27E8337625D1B19B008C6253 /* CardViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8337525D1B19B008C6253 /* CardViewRow.swift */; };
+		27E8337A25D1B74D008C6253 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8337925D1B74D008C6253 /* MenuView.swift */; };
 		377625760F00768CD39BEC07 /* Pods_Gym_Log.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35AB28A67B30B3A815C17B5 /* Pods_Gym_Log.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +44,18 @@
 		2730DB2725D17FFB00364806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2730DB2925D17FFB00364806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279C0C0025D18065000E4788 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27AD37DA25D1C44B00EF2C47 /* AddExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseView.swift; sourceTree = "<group>"; };
+		27AD37E025D1CD5800EF2C47 /* unconfirmedExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unconfirmedExercise.swift; sourceTree = "<group>"; };
+		27AD37E325D1CF1400EF2C47 /* ChooseNewExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseNewExerciseView.swift; sourceTree = "<group>"; };
+		27AD37EC25D1E0B300EF2C47 /* DeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteView.swift; sourceTree = "<group>"; };
+		27AD37F025D1E16400EF2C47 /* DeleteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteRow.swift; sourceTree = "<group>"; };
+		27AD37F425D1E4A300EF2C47 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		27AD37F825D1E4FE00EF2C47 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		27AD37FB25D1E78200EF2C47 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		27AD37FE25D1E7C100EF2C47 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		27E8337225D1B153008C6253 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		27E8337525D1B19B008C6253 /* CardViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewRow.swift; sourceTree = "<group>"; };
+		27E8337925D1B74D008C6253 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		A35AB28A67B30B3A815C17B5 /* Pods_Gym_Log.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gym_Log.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91B762C33644301AE6686FC /* Pods-Gym Log.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gym Log.debug.xcconfig"; path = "Target Support Files/Pods-Gym Log/Pods-Gym Log.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +98,9 @@
 			children = (
 				2730DB1B25D17FFB00364806 /* AppDelegate.swift */,
 				2730DB1D25D17FFB00364806 /* SceneDelegate.swift */,
-				2730DB1F25D17FFB00364806 /* ContentView.swift */,
+				27AD37F325D1E48900EF2C47 /* ViewController */,
+				27AD37DF25D1CD3A00EF2C47 /* Controller */,
+				27E8337025D1B124008C6253 /* View */,
 				2730DB2125D17FFB00364806 /* Assets.xcassets */,
 				2730DB2625D17FFB00364806 /* LaunchScreen.storyboard */,
 				2730DB2925D17FFB00364806 /* Info.plist */,
@@ -90,6 +116,58 @@
 				2730DB2425D17FFB00364806 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27AD37DD25D1C45400EF2C47 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				27AD37DA25D1C44B00EF2C47 /* AddExerciseView.swift */,
+				27AD37E325D1CF1400EF2C47 /* ChooseNewExerciseView.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		27AD37DF25D1CD3A00EF2C47 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27AD37E025D1CD5800EF2C47 /* unconfirmedExercise.swift */,
+				27AD37F825D1E4FE00EF2C47 /* User.swift */,
+				27AD37FB25D1E78200EF2C47 /* Exercise.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27AD37EB25D1E0A800EF2C47 /* Delete */ = {
+			isa = PBXGroup;
+			children = (
+				27AD37EC25D1E0B300EF2C47 /* DeleteView.swift */,
+				27AD37F025D1E16400EF2C47 /* DeleteRow.swift */,
+			);
+			name = Delete;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		27AD37F325D1E48900EF2C47 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27AD37F425D1E4A300EF2C47 /* UserViewModel.swift */,
+				27AD37FE25D1E7C100EF2C47 /* ExerciseViewModel.swift */,
+			);
+			name = ViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		27E8337025D1B124008C6253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27AD37EB25D1E0A800EF2C47 /* Delete */,
+				27AD37DD25D1C45400EF2C47 /* Add */,
+				2730DB1F25D17FFB00364806 /* ContentView.swift */,
+				27E8337225D1B153008C6253 /* MainView.swift */,
+				27E8337925D1B74D008C6253 /* MenuView.swift */,
+				27E8337525D1B19B008C6253 /* CardViewRow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		9C7DF753E7A7128DDFDA7E63 /* Pods */ = {
@@ -233,8 +311,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AD37F925D1E4FE00EF2C47 /* User.swift in Sources */,
 				2730DB1C25D17FFB00364806 /* AppDelegate.swift in Sources */,
+				27AD37F525D1E4A300EF2C47 /* UserViewModel.swift in Sources */,
+				27E8337A25D1B74D008C6253 /* MenuView.swift in Sources */,
+				27AD37E425D1CF1400EF2C47 /* ChooseNewExerciseView.swift in Sources */,
+				27AD37FC25D1E78200EF2C47 /* Exercise.swift in Sources */,
+				27AD37FF25D1E7C100EF2C47 /* ExerciseViewModel.swift in Sources */,
+				27E8337325D1B153008C6253 /* MainView.swift in Sources */,
+				27AD37DB25D1C44B00EF2C47 /* AddExerciseView.swift in Sources */,
 				2730DB1E25D17FFB00364806 /* SceneDelegate.swift in Sources */,
+				27E8337625D1B19B008C6253 /* CardViewRow.swift in Sources */,
+				27AD37ED25D1E0B300EF2C47 /* DeleteView.swift in Sources */,
+				27AD37E125D1CD5800EF2C47 /* unconfirmedExercise.swift in Sources */,
+				27AD37F125D1E16400EF2C47 /* DeleteRow.swift in Sources */,
 				2730DB2025D17FFB00364806 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
