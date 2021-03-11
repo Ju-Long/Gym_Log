@@ -12,7 +12,7 @@ struct ChooseNewExerciseView: View {
     var body: some View {
         NavigationView {
             VStack {
-                List(exerciseViewModel.exercise) {exercies in
+                List(exerciseViewModel) { in
                     HStack {
                         
                     }

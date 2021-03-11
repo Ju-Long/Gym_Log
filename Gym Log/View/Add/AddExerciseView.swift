@@ -37,16 +37,15 @@ struct AddExerciseView: View {
                         .font(.subheadline)
                         .foregroundColor(Color(.gray))
                 }
-                    DatePicker (
-                        "",
-                        selection: $exercise.date,
-                        in: Date()...,
-                        displayedComponents: .date
-                    )
-                    .datePickerStyle(GraphicalDatePickerStyle())
-                    .colorInvert()
-                    .colorMultiply(Color(.orange))
-                    
+                DatePicker (
+                    "",
+                    selection: $exercise.date,
+                    in: Date()...,
+                    displayedComponents: .date
+                )
+                .datePickerStyle(GraphicalDatePickerStyle())
+                .colorInvert()
+                .colorMultiply(Color(.orange))
                 List {
                     HStack {
                         Text("Choose an Exercise")
